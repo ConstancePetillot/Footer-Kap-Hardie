@@ -1,0 +1,137 @@
+body {
+  background-color: #8eafac;
+  color: #fbfbfb;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: 102px 102px;
+  grid-template-rows: 70px 70px;
+  justify-content: center;
+  margin-left: 45px;
+  margin-right: 45px;
+  padding: 50px;
+}
+
+.service__paiement {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+
+.services__paiement--logo {
+  width: 20px;
+  height: auto;
+}
+
+.services__retour--logo {
+  width: 25px;
+  height: auto;
+}
+
+.services__livraison--logo {
+  width: 25px;
+  height: auto;
+}
+
+.services__serviceClient--logo {
+  width: 25px;
+  height: auto;
+}
+.footer__bottom {
+  border-top: #b4b4bc solid 1px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.elements__newsletter {
+  margin-top: 40px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.elements__email {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4px 8px;
+}
+
+.elements__email--enterEmail {
+  font-size: 12px;
+  width: 180px;
+  border-bottom: #fbfbfb solid 1px;
+  text-align: center;
+}
+
+.elements__email--register {
+  background-color: #fbfbfb;
+  color: #8eafac;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.elements__contact {
+  border-bottom: #fbfbfb solid 1px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.elements__company {
+  border-bottom: #fbfbfb solid 1px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.elements__language {
+  border-bottom: #fbfbfb solid 1px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.elements__search {
+  background-color: #fbfbfb;
+  color: #b4b4bc;
+  text-align: center;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.elements__logo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.elements__logos--facebook {
+  padding: 5px;
+}
+
+.elements__logos--instagram {
+  padding: 5px;
+}
+
+.elements__logos--twitter {
+  padding: 5px;
+}
+
+.elements__project {
+  font-size: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .services {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .footer__bottom {
+    display: none;
+  }
+}
