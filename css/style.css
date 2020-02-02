@@ -125,6 +125,9 @@ body {
   text-align: center;
   margin-top: 20px;
 }
+.footer__desktop {
+  display: none;
+}
 
 @media (min-width: 768px) {
   .services {
@@ -133,5 +136,32 @@ body {
   }
   .footer__bottom {
     display: none;
+  }
+
+  .footer__desktop {
+    display: block;
+  }
+
+  .middle {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 45px;
+    margin-left: 45px;
+    margin-top: 50px;
+    border-top: #b4b4bc solid 1px;
+    padding: 40px;
+  }
+
+  .middle__reseaux {
+    display: grid;
+    grid-template-columns: 30px 30px 30px;
+    grid-template-rows: 30px 30px;
+  }
+}
+
+@media (min-width: 1100) {
+  .middle {
+    margin-left: 90px;
+    margin-right: 90px;
   }
 }
